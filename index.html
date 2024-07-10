@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect</title>
+    <style>
+        *, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .parallax-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            background: url(asset/paper.jpg);
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .parallax-section h1 {
+            font-size: 48px;
+            color: #fff;
+        }
+        .about-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #36C2CE;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section class="parallax-section">
+        <h1>Awesome parallax effect</h1>
+    </section>
+    <section class="about-section">
+        <h2>About section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad, reiciendis cupiditate animi iusto doloremque quod maiores quibusdam. In quas vitae rem hic, velit suscipit obcaecati dicta et molestias omnis!</p>
+    </section>
+</body>
+</html>
